@@ -1,0 +1,62 @@
+/* Log In */
+.home-login-wrapper {
+    position: relative;
+    font-size: 0;
+    height: 100vh;
+}
+    .login-form-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 650px;
+        min-width: 500px;
+        background-color: #fff;
+        border-radius: 7px;
+        box-shadow: 0 0 20px #d0d0d0;
+        overflow: hidden;
+    }
+        .login-form-title {
+            font-size: 30px;
+            font-weight: 700;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 9px;
+            padding: 25px 0;
+            background: #1e9086;
+        }
+        .login-form-subtitle {
+            font-size: 25px;
+            font-weight: 400;
+            color: #000000;
+            letter-spacing: 2px;
+            padding: 20px 40px;
+            margin-top: 30px;
+        }
+        .login-field-wrapper {
+            padding: 0 40px 20px;
+        }
+            .field-label {
+                font-size: 16px;
+                font-weight: 400;
+                color: #8a8a8a;
+                letter-spacing: 2px;
+                margin-bottom: 7px;
+            }
+            .field-input input {
+                font-size: 19px;
+                font-weight: 400;
+                color: #7b7b7b;
+                letter-spacing: 2px;            
+                width: 100%;
+                padding: 10px;
+                border-radius: 10px;
+                border: 2px solid #e8e8e8;
+                outline: none;
+                transition: all .4s ease-in-out;
+            }
+            .field-input input:focus {
+                border: 2px solid #cccccc;
+            }
+/* End of Log In */
