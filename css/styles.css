@@ -9,12 +9,13 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        height: 650px;
+        height: 590px;
         min-width: 500px;
         background-color: #fff;
         border-radius: 7px;
         box-shadow: 0 0 20px #d0d0d0;
         overflow: hidden;
+        transition: all .4s ease-in-out;
     }
         .login-form-title {
             font-size: 30px;
@@ -24,7 +25,7 @@
             text-transform: uppercase;
             letter-spacing: 9px;
             padding: 25px 0;
-            background: #1e9086;
+            background: linear-gradient(45deg, #1e9086, #31ccbe);
         }
         .login-form-subtitle {
             font-size: 25px;
@@ -44,19 +45,68 @@
                 letter-spacing: 2px;
                 margin-bottom: 7px;
             }
-            .field-input input {
-                font-size: 19px;
+            .field-input.login-submit-wrapper {
+                text-align: right;
+            }
+                .field-input input {
+                    font-size: 19px;
+                    font-weight: 400;
+                    color: #7b7b7b;
+                    letter-spacing: 2px;            
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 10px;
+                    border: 2px solid #e8e8e8;
+                    outline: none;
+                    transition: all .4s ease-in-out;
+                }
+                .field-input input:focus {
+                    border: 2px solid #cccccc;
+                }
+                .field-input.login-submit-wrapper button {
+                    font-size: 17px;
+                    font-weight: 400;
+                    color: #fff;
+                    letter-spacing: 2px;
+                    width: 30%;
+                    padding: 10px 0;
+                    background: #1e9086;
+                    border: none;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    outline: #2cccbe;
+                    transition: all .4s ease-in-out;
+                }
+                .field-input.login-submit-wrapper button:hover {
+                    background: #2cccbe;
+                }
+        .sign-up-option-wrapper {
+            padding: 0 40px;
+        }
+            .sign-up-text {
+                font-size: 20px;
                 font-weight: 400;
-                color: #7b7b7b;
-                letter-spacing: 2px;            
-                width: 100%;
-                padding: 10px;
-                border-radius: 10px;
-                border: 2px solid #e8e8e8;
-                outline: none;
+                color: #a7a7a7;
+                text-align: center;
+                margin-top: 20px;
+            }
+            .sign-up-link a {
+                display: block;
+                font-size: 24px;
+                font-weight: 400;
+                color: #1e9086;
+                text-decoration: none;
+                text-align: center;
+                margin-top: 20px;
+                padding: 15px 0;
+                border: 1px solid #1e9086;
+                border-radius: 5px;
+                background: #fff;
                 transition: all .4s ease-in-out;
             }
-            .field-input input:focus {
-                border: 2px solid #cccccc;
+            .sign-up-link a:hover {
+                background: #2cccbe;
+                border: 1px solid #2cccbe;
+                color: #fff;
             }
 /* End of Log In */
