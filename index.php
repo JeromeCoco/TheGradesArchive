@@ -39,9 +39,14 @@
             <div class="signup-tab-item tab-item-1">
                 <div class="signup-step-1">
                     <div class="signup-step-1-title">I am a...</div>
+                    <div class="signup-step-1-user-level-option">
+                        <div class="signup-step-1-user-level-option-item">Student / Alumnus</div>
+                        <div class="signup-step-1-user-level-option-item">Teacher / Instructor</div>
+                        <div class="signup-step-1-user-level-option-item">School Administrator</div>
+                    </div>
                 </div>
             </div>
-            <div class="signup-tab-item tab-item-1">
+            <div class="signup-tab-item tab-item-2">
                 <div class="signup-step-2"></div>
             </div>
         </div>
