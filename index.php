@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<div class="home-login-wrapper">
+<div class="home-wrapper">
     <div class="login-form-wrapper">
         <div class="login-form-title">The Grades Archive</div>
         <div class="login-form-subtitle">Log in to your channel.</div>
@@ -28,6 +28,9 @@
                 <a href="#" title="Create your channel now!">Create a New Channel!</a>
             </div>
         </div>
+    </div>
+    <div class="signup-form-wrapper">
+        
     </div>
 </div>
 
