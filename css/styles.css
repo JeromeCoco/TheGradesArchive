@@ -7,7 +7,6 @@
     .login-form-wrapper {
         position: absolute;
         top: 50%;
-        left: 50%;
         transform: translate(-50%, -50%);
         height: 590px;
         min-width: 500px;
@@ -15,7 +14,15 @@
         border-radius: 7px;
         box-shadow: 0 0 20px #d0d0d0;
         overflow: hidden;
-        transition: all .4s ease-in-out;
+        opacity: 0;
+        left: 75%;
+        pointer-events: none;
+        transition: all .4s ease-out;
+    }
+    .login-form-wrapper.show-entry-panel {
+        opacity: 1;
+        left: 50%;
+        pointer-events: initial;
     }
         .login-form-title {
             font-size: 30px;
@@ -115,11 +122,45 @@
     .signup-form-wrapper {
         position: absolute;
         top: 50%;
-        left: 50%;
         transform: translate(-50%, -50%);
         width: 500px;
         height: 590px;
+        padding: 30px 0;
         background: #fff;
         box-shadow: 0 0 20px #d0d0d0;
+        border-radius: 7px;
+        overflow: hidden;
+        opacity: 0;
+        left: 25%;
+        pointer-events: none;
+        transition: all .325s ease-out;
     }
+    .signup-form-wrapper.show-entry-panel {
+        opacity: 1;
+        left: 50%;
+        pointer-events: initial;
+    }
+        .signup-form-title {
+            font-size: 20px;
+            font-weight: 400;
+            color: #bdbdbd;
+            letter-spacing: 3px;
+            width: 80%;
+            margin: 0 auto;
+        }
+            .signup-form-title div {
+                font-size: 40px;
+                color: #000;
+                text-transform: uppercase;
+                padding-bottom: 7px;
+                border-bottom: 1px solid #1e9086;
+            }
+        .signup-form-subtitle {
+            font-size: 20px;
+            font-weight: 400;
+            color: black;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
 /* End of Sign In */

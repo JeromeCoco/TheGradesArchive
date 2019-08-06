@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 <div class="home-wrapper">
-    <div class="login-form-wrapper">
+    <div class="login-form-wrapper show-entry-panel">
         <div class="login-form-title">The Grades Archive</div>
         <div class="login-form-subtitle">Log in to your channel.</div>
         <div class="login-field-wrapper">
@@ -30,7 +30,21 @@
         </div>
     </div>
     <div class="signup-form-wrapper">
-        
+        <div class="signup-form-title">
+            Welcome to
+            <div>The Grades Archive</div>
+        </div>
+        <div class="signup-form-subtitle">You can sign up from here...</div>
+        <div class="signup-tab-control">
+            <div class="signup-tab-item tab-item-1">
+                <div class="signup-step-1">
+                    <div class="signup-step-1-title">I am a...</div>
+                </div>
+            </div>
+            <div class="signup-tab-item tab-item-1">
+                <div class="signup-step-2"></div>
+            </div>
+        </div>
     </div>
 </div>
 
