@@ -140,6 +140,9 @@
         left: 50%;
         pointer-events: initial;
     }
+    .signup-form-wrapper.signup-step-students {
+        height: 575px;
+    }
         .signup-form-title {
             font-size: 20px;
             font-weight: 400;
@@ -163,27 +166,90 @@
             margin: 0 auto;
             padding: 20px 0;
         }
-        .signup-step-1-title {
-            font-size: 26px;
-            font-weight: 400;
-            color: #fff;
-            background: linear-gradient(45deg, #1e9086, #31ccbe);
-            padding: 10px 50px;
+        .signup-tab-control {
+            position: relative;
         }
-        .signup-step-1-user-level-option-item {
-            font-size: 35px;
-            font-weight: 400;
-            color: #a5a5a5;
-            max-width: 80%;
-            margin: 25px auto;
-            border: 1px solid #e8e8e8;
-            border-radius: 6px;
-            padding: 15px;
-            cursor: pointer;
-            transition: all .4s ease-in-out;
+        .signup-tab-item {
+            position: absolute;
+            top: 0;
+            left: 100%;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            pointer-events: none;
+            transition: all .4s ease-out;
         }
-        .signup-step-1-user-level-option-item:hover {
-            border: 1px solid #000;
-            color: #000;
+        .signup-tab-item.tab-active {
+            left: 0;
+            opacity: 1;
+            pointer-events: initial;
         }
+            .signup-step-user-level-title {
+                font-size: 26px;
+                font-weight: 400;
+                color: #fff;
+                background: linear-gradient(45deg, #1e9086, #31ccbe);
+                padding: 10px 50px;
+            }
+                .signup-step-user-level-option-item {
+                    font-size: 35px;
+                    font-weight: 400;
+                    color: #a5a5a5;
+                    max-width: 80%;
+                    margin: 25px auto;
+                    border: 1px solid #e8e8e8;
+                    border-radius: 6px;
+                    padding: 15px;
+                    cursor: pointer;
+                    transition: all .4s ease-in-out;
+                }
+                .signup-step-user-level-option-item:hover {
+                    border: 1px solid #000;
+                    color: #000;
+                }
+            .signup-step-student-form {
+                position: relative;
+            }
+                .signup-step-student-form .signup-field {
+                    padding: 5px 50px;
+                }
+                .signup-field.signup-field-submit {
+                    text-align: right;
+                }
+                    .signup-step-student-form .signup-label {
+                        font-size: 17px;
+                        font-weight: 400;
+                        color: #000;
+                        margin-bottom: 5px;
+                    }
+                    .signup-step-student-form .signup-control input {
+                        width: 100%;
+                        height: 35px;
+                        font-size: 15px;
+                        padding: 0 10px;
+                        border: none;
+                        border-left: 4px solid #1e9086;
+                        background-color: #f3f3f3;
+                        outline: none;
+                    }
+                    .signup-step-student-form .signup-control input::placeholder {
+                        color: #c1c1c1;
+                    }
+                    .signup-field.signup-field-submit button {
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: #fff;
+                        letter-spacing: 2px;
+                        margin-top: 5px;
+                        width: 30%;
+                        padding: 11px 0;
+                        border: none;
+                        outline: none;
+                        background-color: #1e9086;
+                        cursor: pointer;
+                        transition: all .4s ease-in-out;
+                    }
+                    .signup-field.signup-field-submit button:hover {
+                        background: #2cccbe;
+                    }
 /* End of Sign In */

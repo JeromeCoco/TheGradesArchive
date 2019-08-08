@@ -7,6 +7,14 @@
                 $('.signup-form-wrapper').addClass('show-entry-panel');
                 $('.login-form-wrapper').removeClass('show-entry-panel');
             });
+        },
+        homepage_signup_switch_tab: function() {
+            $('.signup-step-user-level-option-item').click(function() {
+                var next_step = $(this).data('next-step');
+                $('.signup-tab-item.tab-active').removeClass('tab-active');
+                $('.signup-tab-item[data-step-id="' + next_step + '"]').addClass('tab-active');
+                $('.signup-form-wrapper').addClass(next_step);
+            });
         }
     }
 
@@ -15,8 +23,12 @@
     }
 
     $(document).ready(function() {
-        new WOW().init(); // Initialize animation
+        // Initialize animation
+        new WOW().init();
+
+        // Homepage scripts
         ui.homepage_switch_entry();
+        ui.homepage_signup_switch_tab();
     });
 
     $(window).on('load', function() {

@@ -36,18 +36,58 @@
         </div>
         <div class="signup-form-subtitle">You can sign up from here...</div>
         <div class="signup-tab-control">
-            <div class="signup-tab-item tab-item-1">
-                <div class="signup-step-1">
-                    <div class="signup-step-1-title">I am a...</div>
-                    <div class="signup-step-1-user-level-option">
-                        <div class="signup-step-1-user-level-option-item">Student / Alumnus</div>
-                        <div class="signup-step-1-user-level-option-item">Teacher / Instructor</div>
-                        <div class="signup-step-1-user-level-option-item">School Administrator</div>
+            <div class="signup-tab-item tab-item-user-level tab-active">
+                <div class="signup-step-user-level">
+                    <div class="signup-step-user-level-title">I am a...</div>
+                    <div class="signup-step-user-level-option">
+                        <div class="signup-step-user-level-option-item" data-next-step="signup-step-students">Student / Alumnus</div>
+                        <div class="signup-step-user-level-option-item" data-next-step="signup-step-teachers">Teacher / Instructor</div>
+                        <div class="signup-step-user-level-option-item" data-next-step="signup-step-school-admin">School Administrator</div>
                     </div>
                 </div>
             </div>
-            <div class="signup-tab-item tab-item-2">
-                <div class="signup-step-2"></div>
+            <div class="signup-tab-item tab-item-students" data-step-id="signup-step-students">
+                <div class="signup-step-student-form">
+                    <div class="signup-field">
+                        <div class="signup-label">Student ID</div>
+                        <div class="signup-control">
+                            <input type="text" name="student-id">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">Full Name</div>
+                        <div class="signup-control">
+                            <input type="text" name="student-full-name">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">Preferred Username</div>
+                        <div class="signup-control">
+                            <input type="text" name="student-preferred-username">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">Preferred Password</div>
+                        <div class="signup-control">
+                            <input type="text" name="student-preferred-passsword">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">School Channel ID</div>
+                        <div class="signup-control">
+                            <input type="text" name="student-school-channel-id">
+                        </div>
+                    </div>
+                    <div class="signup-field signup-field-submit">
+                        <button type="button">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="signup-tab-item tab-item-teachers" data-step-id="signup-step-teachers">
+                
+            </div>
+            <div class="signup-tab-item tab-item-school-admin" data-step-id="signup-step-school-admin">
+                
             </div>
         </div>
     </div>
