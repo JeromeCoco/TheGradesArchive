@@ -84,7 +84,41 @@
                 </div>
             </div>
             <div class="signup-tab-item tab-item-teachers" data-step-id="signup-step-teachers">
-                
+                <div class="signup-step-student-form">
+                    <div class="signup-field">
+                        <div class="signup-label">Student ID</div>
+                        <div class="signup-control">
+                            <input type="text" name="student-id">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">Full Name</div>
+                        <div class="signup-control">
+                            <input type="text" name="student-full-name">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">Preferred Username</div>
+                        <div class="signup-control">
+                            <input type="text" name="student-preferred-username">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">Preferred Password</div>
+                        <div class="signup-control">
+                            <input type="text" name="student-preferred-passsword">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">School Channel ID</div>
+                        <div class="signup-control">
+                            <input type="text" name="student-school-channel-id">
+                        </div>
+                    </div>
+                    <div class="signup-field signup-field-submit">
+                        <button type="button">Sign Up</button>
+                    </div>
+                </div>
             </div>
             <div class="signup-tab-item tab-item-school-admin" data-step-id="signup-step-school-admin">
                 
