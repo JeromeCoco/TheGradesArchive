@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="signup-tab-item tab-item-students" data-step-id="signup-step-students">
-                <div class="signup-step-student-form">
+                <div class="signup-step-form">
                     <div class="signup-field">
                         <div class="signup-label">Student ID</div>
                         <div class="signup-control">
@@ -69,7 +69,7 @@
                     <div class="signup-field">
                         <div class="signup-label">Preferred Password</div>
                         <div class="signup-control">
-                            <input type="text" name="student-preferred-passsword">
+                            <input type="password" name="student-preferred-passsword">
                         </div>
                     </div>
                     <div class="signup-field">
@@ -79,51 +79,109 @@
                         </div>
                     </div>
                     <div class="signup-field signup-field-submit">
-                        <button type="button">Sign Up</button>
+                        <button class="signup-back" type="button">Back</button>
+                        <button class="signup-submit-student" type="button">Sign Up</button>
                     </div>
                 </div>
             </div>
             <div class="signup-tab-item tab-item-teachers" data-step-id="signup-step-teachers">
-                <div class="signup-step-student-form">
-                    <div class="signup-field">
-                        <div class="signup-label">Student ID</div>
-                        <div class="signup-control">
-                            <input type="text" name="student-id">
-                        </div>
-                    </div>
+                <div class="signup-step-teachers-form">
                     <div class="signup-field">
                         <div class="signup-label">Full Name</div>
                         <div class="signup-control">
-                            <input type="text" name="student-full-name">
+                            <input type="text" name="teachers-full-name">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">Title</div>
+                        <div class="signup-control">
+                            <input type="text" name="teachers-title">
                         </div>
                     </div>
                     <div class="signup-field">
                         <div class="signup-label">Preferred Username</div>
                         <div class="signup-control">
-                            <input type="text" name="student-preferred-username">
+                            <input type="text" name="teachers-preferred-username">
                         </div>
                     </div>
                     <div class="signup-field">
                         <div class="signup-label">Preferred Password</div>
                         <div class="signup-control">
-                            <input type="text" name="student-preferred-passsword">
+                            <input type="passsword" name="teachers-preferred-passsword">
                         </div>
                     </div>
                     <div class="signup-field">
                         <div class="signup-label">School Channel ID</div>
                         <div class="signup-control">
-                            <input type="text" name="student-school-channel-id">
+                            <input type="text" name="teachers-school-channel-id">
                         </div>
                     </div>
                     <div class="signup-field signup-field-submit">
-                        <button type="button">Sign Up</button>
+                        <button class="signup-back" type="button">Back</button>
+                        <button class="signup-submit-teacher" type="button">Sign Up</button>
                     </div>
                 </div>
             </div>
             <div class="signup-tab-item tab-item-school-admin" data-step-id="signup-step-school-admin">
-                
+                <div class="signup-step-school-admin-form">
+                    <div class="signup-field">
+                        <div class="signup-label">Full Name</div>
+                        <div class="signup-control">
+                            <input type="text" name="school-admin-full-name">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">Title</div>
+                        <div class="signup-control">
+                            <input type="text" name="school-admin-title">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">Email Address</div>
+                        <div class="signup-control">
+                            <input type="text" name="school-admin-email-address">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">Preferred Username</div>
+                        <div class="signup-control">
+                            <input type="text" name="school-admin-preferred-username">
+                        </div>
+                    </div>
+                    <div class="signup-field">
+                        <div class="signup-label">Preferred Password</div>
+                        <div class="signup-control">
+                            <input type="text" name="school-admin-preferred-passsword">
+                        </div>
+                    </div>
+                    <div class="signup-field signup-field-submit">
+                        <button class="signup-back" type="button">Back</button>
+                        <button class="signup-submit-school-admin" type="button">Sign Up</button>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="menu-wrapper">
+        <nav>
+            <ul>
+                <li class="nav-hidden">
+                    <a href="http://localhost/TheGradesArchive/">Already have an account?</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Support</a>
+                </li>
+                <li>
+                    <a href="#">Get In Touch</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </div>
 
