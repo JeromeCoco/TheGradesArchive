@@ -25,7 +25,7 @@
             <hr>
             <div class="sign-up-text">OR</div>
             <div class="sign-up-link">
-                <a href="#" title="Create your channel now!">Create Your Account ...</a>
+                <a href="#" title="Sign up now!">Create Your Account ...</a>
             </div>
         </div>
     </div>
