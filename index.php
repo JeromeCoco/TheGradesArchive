@@ -49,21 +49,21 @@
             <div class="signup-tab-item tab-item-students" data-step-id="signup-step-students">
                 <div class="signup-step-form">
                     <div class="signup-field">
-                        <div class="signup-label">Student ID</div>
+                        <div class="signup-label">Student ID / LRN</div>
                         <div class="signup-control">
                             <input type="text" name="student-id">
                         </div>
                     </div>
                     <div class="signup-field">
-                        <div class="signup-label">Full Name</div>
+                        <div class="signup-label">First Name</div>
                         <div class="signup-control">
-                            <input type="text" name="student-full-name">
+                            <input type="text" name="student-first-name">
                         </div>
                     </div>
                     <div class="signup-field">
-                        <div class="signup-label">Preferred Username</div>
+                        <div class="signup-label">Last Name</div>
                         <div class="signup-control">
-                            <input type="text" name="student-preferred-username">
+                            <input type="text" name="student-last-name">
                         </div>
                     </div>
                     <div class="signup-field">
